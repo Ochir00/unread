@@ -374,10 +374,11 @@ p {
     background-color: white;
     width: 739px;
     height: 183px;
-    border-radius: 10px;
+    border-radius: 0px 30px 30px 30px;
     font-size: 25px;
     font-weight: 700px;
-
+    display: flex;
+    align-items: center;
 }
 .page1-2 div li{
     color: skyblue;
@@ -388,4 +389,13 @@ p {
     margin-left: 40px;
     font-weight: 300px;
     flex-wrap: wrap;
+}
+.page1-2 img{
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    border-radius: 50%;
+}
+.page2head {
+    justify-content: end
 }
